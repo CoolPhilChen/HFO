@@ -23,6 +23,9 @@
 # --no-sync 
 # --no-logging
 
+# 1npc
+./bin/HFO --port=6000 --offense-npcs=1 --no-sync --no-logging --trials=5
+
 # 1npc v 1npc
 ./bin/HFO --port=6000 --offense-npcs=1 --defense-npcs=1 --no-sync --no-logging --trials=5
 
